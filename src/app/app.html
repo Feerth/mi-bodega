@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" routerLink="/">MiBodega</a>
+    <div class="navbar-nav">
+      <a class="nav-link" routerLink="/productos" routerLinkActive="active"
+         [routerLinkActiveOptions]="{ exact: true }">Inventario</a>
+      <a class="nav-link" routerLink="/productos/nuevo"
+         routerLinkActive="active">Nuevo producto</a>
+    </div>
+  </div>
+</nav>
+
+<main class="container py-4">
+  <router-outlet />
+</main>

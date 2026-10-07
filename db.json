@@ -1,0 +1,47 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "arroz costeño 5 kg",
+      "categoria": "Abarrotes",
+      "precio": 24.9,
+      "stock": 30
+    },
+    {
+      "id": "3",
+      "nombre": "leche gloria 400 g",
+      "categoria": "Lácteos",
+      "precio": 4.2,
+      "stock": 48
+    },
+    {
+      "nombre": "inca kola 1.5 l",
+      "categoria": "Bebidas",
+      "precio": 8,
+      "stock": 2,
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "nombre": "detergente bolívar 750 g",
+      "categoria": "Limpieza",
+      "precio": 12.9,
+      "stock": 15
+    },
+    {
+      "nombre": "Azucar Rubia",
+      "categoria": "Abarrotes",
+      "precio": 5.5,
+      "stock": 200,
+      "id": "AsPFgZjEwOc"
+    },
+    {
+      "nombre": "Sapolio",
+      "categoria": "Limpieza",
+      "precio": 7,
+      "stock": 100,
+      "id": "ZC27UdXZ2Fc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
